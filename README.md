@@ -28,7 +28,7 @@ Your shell will be compiled this way:
 
 You can download this repository like this:
 
-`git clone https://github.com/`
+`git clone https://github.com/Fedejalife99/holbertonschool-simple_shell`
 
 ## Testing
 
