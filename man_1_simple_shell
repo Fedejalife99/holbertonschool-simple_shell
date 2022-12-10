@@ -1,0 +1,41 @@
+B.\man page for simple shell 
+.\"Created by Santiago vidarte and Federico Jalife
+
+.TH  "December 9 2022" "Simple Shell man page"
+
+.SH NAME
+\fR \- simple UNIX command interpreter (hsh)
+
+.SH SYNOPSIS
+.B ./hsh
+
+.SH DESCRIPTION
+reads lines from either a file or the terminal, interprets them, and generally executes other commands
+
+.SH EXAMPLE:
+$PATH:
+.PP
+/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:
+
+.SH INITIALIZATION
+To use our shell the user needs to compile using: 
+.B gcc -Wall -Wextra -Werror -pedantic *.c -o hsh.
+
+.PP
+.B EX:
+$ ./hsh 
+
+.PP
+If the user inputs piplines or calls  non-interactive mode, shell should
+funciton and execute said commands
+
+.PP
+.B EX:
+$  echo 'ls -a' | ./hsh
+
+.SH BUGS
+No Known Bugs
+
+.SH AUTHORS
+Santiago Vidarte
+Federico Jalife
